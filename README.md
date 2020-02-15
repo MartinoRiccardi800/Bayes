@@ -26,7 +26,7 @@ install_github("rasmusab/bayesian_first_aid")
 The repository contains two datasets (cumulative oil extracted and rates) and a code to be run.
 
 ## Model
-Y_{i,j} = beta_{1,j}*t_{i,j} + beta_{2,j}*(t_{i,j}-t_{1}) + beta_{3,j}*(t_{i,j}-t_{2}) +  epsilon_{i,j} \\
+Y_{i,j} = beta_{1,j}*t_{i,j} + beta_{2,j}*(t_{i,j}-t_{1}) + beta_{3,j}*(t_{i,j}-t_{2}) +  epsilon_{i,j}; 
 epsilon_{i,j}~ N(0, tau^{2})
 ## Results
 Observing the boxplots of betas, the final results seem to show that  the "extraction coefficient" seems to be affected by opening other wells nearby, causing a decrease of the production
