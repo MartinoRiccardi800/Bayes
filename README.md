@@ -22,7 +22,7 @@ library(devtools)<br/>
 install_github("rasmusab/bayesian_first_aid")<br/>
 
 ## Data and code
-The repository contains two datasets (cumulative oil extracted and rates) and a code to be run.
+The repository contains 3 datasets (cumulative oil extracted, rates and coordinates of wells) and a code to be run.
 
 ## Model
 Y_ij = beta1j\*t_ij + beta2j\*(t_ij-t1) + beta3j\*(t_ij-t2) +  epsilon_ij;<br/>
